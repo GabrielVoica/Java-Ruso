@@ -1,8 +1,17 @@
 package Ejercicio;
 
+
+/*
+ *Es una version de prueba yo le meteria algunos cambios como en la funcion initHub poner otro arte Ascii para el welcome y decorarlo un poco mas
+ *en las demas lineeas. El titulo tmb se puede cambiar lo he puesto como provisional. 
+ *
+ *Id haciendo cambios para tema decoracion y toda la pesca y cuando tengamos el hub hecho del todo empezamos a meter los minijuegos si os parece
+ */
+
+
 public class SovietPlayGround {
 
-
+    //Funcion con la que empieza el programa, simula un tiempo de carga 
 	public static void initHub() throws InterruptedException {
 		System.out.println("WELCOME TO THE SOVIET PLAYGROUND");
 		System.out.println("--------------------------------");
@@ -28,7 +37,7 @@ public class SovietPlayGround {
 		
 	}
 
-
+    //Imprime por partes el titulo del proyecto
 	public static void loadHubUserInterface() throws InterruptedException {
 		Thread.sleep(500);
 		System.out.println(" ______ __ __   ___       _____ ___  __ __ ____   ___ ______      ____  _      ____ __ __  ____ ____   ___  __ __ ____  ___   ");
