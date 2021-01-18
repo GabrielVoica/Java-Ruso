@@ -1,4 +1,3 @@
-
 /*
  *Es una version de prueba yo le meteria algunos cambios como en la funcion initHub poner otro arte Ascii para el welcome y decorarlo un poco mas
  *en las demas lineeas. El titulo tmb se puede cambiar lo he puesto como provisional. 
@@ -26,7 +25,10 @@ public class Retrobyl {
 		System.out.println("---------------------------------------------------------------------------\n\n");
 		
 
-		System.out.println("Created By : DGS Teams COPYRIGHT LICENSED\n\n");
+		System.out.println("Created By : DGS Teams COPYRIGHT LICENSED\n");
+		Thread.sleep(300);
+		System.out.println("Members: Darian, Gabriel,Sergio\n\n");
+
 	}
 
 
@@ -56,25 +58,29 @@ public class Retrobyl {
 	
 	
 	public static void listGames() {
-		System.out.println("   ______________________________\r\n" + 
-				" / \\                             \\.\r\n" + 
-				"|   |           MINIGAMES        |.\r\n" + 
-				"\\_ |            -------          |.\r\n" + 
-				"    |                            |.\r\n" + 
-				"    |                            |.\r\n" + 
-				"    | 1.                         |.\r\n" + 
-				"    | 2.                         |.\r\n" + 
-				"    | 3.                         |.\r\n" + 
-				"    | 4.                         |.\r\n" + 
-				"    | 5.                         |.\r\n" + 
-				"    | 6.                         |.\r\n" + 
-				"    |                            |.\r\n" + 
-				"    |                            |.\r\n" + 
-				"    |                            |.\r\n" + 
-				"    |   _________________________|___\r\n" + 
-				"    |  /                            /.\r\n" + 
-				"    \\_/____________________________/.");
-	}
+	
+		System.out.print("\n\n\n\n\n\n\n\n\n\n\n\n\n");
+		System.out.println(" ___________________________________________________________________________");
+		System.out.println("|                             HUB.exe 19.0.2                    |-| |[]| |x||");
+		System.out.println(" ___________________________________________________________________________");
+		System.out.println("|                                                                           |");
+		System.out.println("|                                                                           |");
+		System.out.println("|     -------------                          ------------                   |");
+		System.out.println("|     | 1) Game 1 |                          | 2) Game 2 |                  |");
+		System.out.println("|     -------------                           -----------                   |");
+		System.out.println("|                                                                           |");
+		System.out.println("|                                                                           |");
+		System.out.println("|                                                                           |");
+		System.out.println("|                                                                           |");
+		System.out.println("|                                                                           |");
+		System.out.println("|                                                                           |");
+		System.out.println("|                                                                           |");
+		System.out.println("|                                                                           |");
+		System.out.println("|                                                                           |");
+		System.out.println("|                                                                           |");
+		System.out.println("|                                                                           |");
+		System.out.println(" ___________________________________________________________________________");
+		System.out.println(" ___________________________________________________________________________");}
 
 
 
