@@ -13,7 +13,7 @@ public class Retrobyl {
 
 	private static Random random = new Random();
 
-
+    
 
 	/***
 	 * Imprime el título del proyecto con un efecto retro load.
@@ -54,6 +54,7 @@ public class Retrobyl {
 		for(int i=0;i<5;i++){
 			System.out.println("| "+ arrayFrases[random.nextInt(4)]+ "..." + " " + ((i+1)*20)+ "%");
 			Thread.sleep(random.nextInt(500)+500);
+			
 		}
 		
 		Thread.sleep(500);
