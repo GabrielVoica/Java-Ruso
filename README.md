@@ -36,4 +36,4 @@ Simular una terminal de linux mediante los STACK.
 
 ## Documentación
 
-Creada a partir de la opción JAVADOC de Eclipse
+La documentación es accesible desde https://gabrielvoica.github.io/Java-Ruso/Retrobyl_Package/package-summary.html
