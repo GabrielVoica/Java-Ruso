@@ -7,48 +7,48 @@
 body {
   background: url(./fondo.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
   color: rgb(139, 172, 21);
-  font-family: "Potta One", cursive;
-}
-
-.game-title {
-  font-size: 2rem;
-  color: white;
-  margin: 5px;
+  font-family: Arial;
+  height: 100vh;
+  width: 100vw;
 }
 
 .project-div {
-  height: 100%;
+  height: 80%;
+  height: 80%;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
   font-size: 5rem;
   color: rgb(190, 190, 190);
 }
 
-.project-div h1 {
-  font-size: 3rem;
-  border-bottom: 3px solid rgb(69, 202, 69);
-  color: rgb(190, 190, 190);
-  background: linear-gradient(rgb(82, 78, 78), rgb(27, 190, 27));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.header {
+  background: rgb(0, 0, 0);
+  box-shadow: 0px 0px 30px 40px rgb(0, 0, 0);
+  margin-bottom: 50px;
+  text-align: center;
 }
 
-.project-div a {
-  margin-top: 10%;
-  color: rgb(97, 119, 17);
+.game-title {
+  font-size: 3rem;
+  font-family: fantasy;
+  color: rgb(111, 163, 14);
+}
+
+.project-div .links {
+  color: rgb(156, 158, 19);
+  font-family: "Coda Caption", sans-serif;
+  font-size: 4rem;
 }
 
 footer,
 footer a {
-  color: rgb(53, 97, 243);
-  font-size: 1rem;
+  color: rgb(9, 185, 33);
+  font-size: 2rem;
   text-align: center;
-  margin-top: 70px;
 }
 
 .pantalla-carga {
@@ -57,15 +57,22 @@ footer a {
   left: 0;
   height: 100%;
   width: 100%;
-  background: #399;
+  background: rgb(16, 126, 25);
   display: flex;
   justify-content: center;
   align-items: center;
   transition: 1s;
+  animation: resize 0.1s forwards;
+  animation-delay: 4s;
 }
 
 .barril {
   animation: rotate 1s forwards infinite ease;
+  animation-timing-function: linear;
+}
+
+.creator-github {
+  font-size: 1.2rem;
 }
 
 @keyframes rotate {
@@ -74,5 +81,16 @@ footer a {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes resize {
+  from {
+    height: 100%;
+    width: 100%;
+  }
+  to {
+    height: 0%;
+    width: 0%;
   }
 }
