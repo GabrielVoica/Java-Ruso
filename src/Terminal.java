@@ -3,7 +3,7 @@ import java.util.*;
 /**
  * Programa que simula una terminal de Linux. Dentro de la terminal podemos encontrar 3 minijuegos con tematica de Chernovyl.
  * 
- * Contiene una serie de comandos que vienen detallados en el manual de la simulación de bach (ejecutar comando "man")
+ * Contiene una serie de comandos que vienen detallados en el manual de la simulaciÃ³n de bach (ejecutar comando "man")
  * 
  * @version 1.0
  * @author Darian,Gabri,Sergio
@@ -32,7 +32,7 @@ public class Terminal {
 	
 
 	/**
-	 * Este metodo añade todas las rutas possibles al stack de rutas
+	 * Este metodo aÃ±ade todas las rutas possibles al stack de rutas
 	 * 
 	 * @param stack Stack de las rutas
 	 * @return
@@ -46,7 +46,7 @@ public class Terminal {
 	}
 
 	/**
-	 * Añade al archivo de ficheros un archivo decorativo
+	 * AÃ±ade al archivo de ficheros un archivo decorativo
 	 * 
 	 * @param archivo Nombre del archivo decorativo
 	 * @return Archivo
@@ -75,7 +75,7 @@ public class Terminal {
 	}
 
 	/**
-	 * Metodo que añade las rutas possibles a la simulacion del directorio raiz.
+	 * Metodo que aÃ±ade las rutas possibles a la simulacion del directorio raiz.
 	 * 
 	 * @param dir Stack representativo del directorio raiz
 	 * @return Devuelve el stack de rutas del directorio raiz
@@ -305,7 +305,7 @@ public class Terminal {
 		System.out.println("man - abrir el archivo de ayuda");
 		System.out.println("cat - leer un archivo");
 		System.out.println("clear - limpiar terminal");
-		System.out.println("irssi - conexión IRC");
+		System.out.println("irssi - conexiÃ³n IRC");
 		System.out.println("./ - sirve para ejecutar un script - Solo funciona por ruta relativa (Estar dentro de la ruta donde esta el SCRIPT)");
 		System.out.println("\nName: Example:");
 		System.out.println("cd /direcorio1/subdirectorio");
@@ -386,7 +386,7 @@ public class Terminal {
 		}
 		if(numsh > 0) {
 			System.out.println("Darian Manasturean --> Porgramador - DAW1: Ingene");
-			System.out.println("Sergio Martín --> Porgramador - DAW1");
+			System.out.println("Sergio MartÃ­n --> Porgramador - DAW1");
 			System.out.println("Gabriel Voica --> Porgramador - DAW1");
 
 		}
@@ -435,7 +435,8 @@ public class Terminal {
 	 * @param comando
 	 */
 	public static void exitsh(String comando) {
-		System.out.println("bash: exit: saliendo del terminal");		
+		System.out.println("bash: exit: saliendo del terminal");
+		System.exit(0);
 
 	}
 
@@ -480,11 +481,11 @@ public class Terminal {
 
 		if(numsh == 0) {
 			Thread.sleep(3000);
-			System.out.println("20:50 -!- vlad1mirpikal0v: ¿Que desea?");
+			System.out.println("20:50 -!- vlad1mirpikal0v: Â¿Que desea?");
 			Thread.sleep(3000);
 			System.out.println("20:50 -!- admin_route_sv05: Hola, necesito acceso a varios scripts en el terminal 5 de Chernobyl");
 			Thread.sleep(3000);
-			System.out.println("20:50 -!- vlad1mirpikal0v: ¿Ahora?");
+			System.out.println("20:50 -!- vlad1mirpikal0v: Â¿Ahora?");
 			Thread.sleep(3000);
 			System.out.println("20:51 -!- admin_route_sv05: Si, es urgente");
 			Thread.sleep(5000);
@@ -496,15 +497,15 @@ public class Terminal {
 		}
 		if(numsh > 0) {
 			Thread.sleep(3000);
-			System.out.println("20:50 -!- vlad1mirpikal0v: ¿!Otra vez tú!?");
+			System.out.println("20:50 -!- vlad1mirpikal0v: Â¿!Otra vez tÃº!?");
 			Thread.sleep(3000);
-			System.out.println("20:50 -!- admin_route_sv05: Perdón, me he equivocado");
+			System.out.println("20:50 -!- admin_route_sv05: PerdÃ³n, me he equivocado");
 			Thread.sleep(3000);
-			System.out.println("20:50 -!- vlad1mirpikal0v: !Por la madre russia y los osos de nuestro amado país, como puedes cometer un error así!");
+			System.out.println("20:50 -!- vlad1mirpikal0v: !Por la madre russia y los osos de nuestro amado paÃ­s, como puedes cometer un error asÃ­!");
 			Thread.sleep(3000);
-			System.out.println("20:51 -!- admin_route_sv05: Lo siento, no volverá a ocurrir");
+			System.out.println("20:51 -!- admin_route_sv05: Lo siento, no volverÃ¡ a ocurrir");
 			Thread.sleep(5000);
-			System.out.println("20:59 -!- vlad1mirpikal0v: No, no volverá a ocurrir, me encargaré de ello");
+			System.out.println("20:59 -!- vlad1mirpikal0v: No, no volverÃ¡ a ocurrir, me encargarÃ© de ello");
 			Thread.sleep(3500);
 			System.out.println("20:59 -!- vlad1mirpikal0v has left the chat\r\n");
 			Thread.sleep(3500);
