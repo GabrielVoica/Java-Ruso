@@ -8,7 +8,7 @@ El objetivo de este proyecto erá la creación de un HUB donde se pueda acceder 
 
 ## El Hub/Terminal
 
-Simular una terminal de linux mediante los STACK.
+Simular una terminal de linux.
 ### Comandos disponibles --> 
   ```
     $ cd /directorio1/subdirectorio (Acceder a otro directorio)
