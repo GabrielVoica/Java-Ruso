@@ -4,7 +4,7 @@ Versión: 28/01/2021
 
 ## Creación de una Bash Terminal + 3 Minijuegos formato Script
 
-El objetivo de este proyecto erá la creación de un HUB donde se pueda acceder a 3 minijuegos. Debía ser programado en JAVA y por consola usando funciones
+El objetivo de este proyecto era la creación de un HUB donde se pueda acceder a 3 minijuegos. Debía ser programado en JAVA y por consola usando funciones
 
 ## El Hub/Terminal
 
